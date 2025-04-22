@@ -1,0 +1,76 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+            margin: 0;
+                padding: 0;
+                }
+
+                /* Barra de navegação */
+                .navbar {
+                    background-color: #212121;
+                        color: white;
+                            display: flex;
+                                align-items: center;
+                                    justify-content: space-between;
+                                        padding: 10px 20px;
+                                        }
+
+                                        .navbar a {
+                                            color: white;
+                                                text-decoration: none;
+                                                    margin: 0 10px;
+                                                    }
+
+                                                    .navbar a:hover {
+                                                        text-decoration: underline;
+                                                        }
+
+                                                        /* Layout principal de vídeos */
+                                                        .container {
+                                                            max-width: 1200px;
+                                                                margin: 20px auto;
+                                                                    padding: 0 15px;
+                                                                    }
+
+                                                                    .video-grid {
+                                                                        display: grid;
+                                                                            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+                                                                                gap: 15px;
+                                                                                }
+
+                                                                                .video-card {
+                                                                                    background: white;
+                                                                                        border-radius: 8px;
+                                                                                            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                                                                                                overflow: hidden;
+                                                                                                }
+
+                                                                                                .video-card img {
+                                                                                                    width: 100%;
+                                                                                                        height: auto;
+                                                                                                            display: block;
+                                                                                                            }
+
+                                                                                                            .video-card h3 {
+                                                                                                                font-size: 16px;
+                                                                                                                    margin: 10px;
+                                                                                                                        color: #333;
+                                                                                                                        }
+
+                                                                                                                        .video-card p {
+                                                                                                                            font-size: 14px;
+                                                                                                                                margin: 0 10px 10px;
+                                                                                                                                    color: #666;
+                                                                                                                                    }
+
+                                                                                                                                    /* Rodapé */
+                                                                                                                                    .footer {
+                                                                                                                                        background-color: #212121;
+                                                                                                                                            color: white;
+                                                                                                                                                text-align: center;
+                                                                                                                                                    padding: 10px 0;
+                                                                                                                                                        position: relative;
+                                                                                                                                                            bottom: 0;
+                                                                                                                                                                width: 100%;
+                                                                                                                                                                }
